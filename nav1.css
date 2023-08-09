@@ -1,0 +1,180 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    height:10%;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:0.1px solid #e7e8e0;
+}
+.logo{
+    height:80%;
+    width:8%;
+    border:2px solid black;
+    
+}
+.logo img{
+    width:40%;
+    height:100%;
+    border-radius: 50%;
+}
+.menu{
+    height:80%;
+    width:40%;
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.burger{
+    display: none;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    
+  width:90%;
+  justify-content: space-evenly;
+    
+}
+.section1{
+    height:50vh;
+    width:70vw;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section1_img{
+    height:100%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right:2em;
+    /* border: 2px solid red; */
+}
+.section1_img img{
+    height:100%;
+    width:50%;
+    border-radius: 1px 55px 25px 49px / 0px 46px 1px 46px;
+    border: 4px solid red;
+}
+.section1_bio{
+    padding:5% 0% 5% 1%;
+
+}
+.section1_bio .section1_hello{
+    padding-bottom: 1em;
+    font-size: 1em;
+    color:#bddc08;
+}
+.section1_name{
+    font-size:2.5em;
+    color: red;
+}
+.section1_name_base{
+    font-size: 1em;
+    padding-bottom: 1.5em;
+}
+.span_class{
+    margin: 0em 0.5em 0em 1em ;
+    color: #bddc08;
+    }
+    .span_class_{
+        margin: 0em 0.5em 0em 0em ;
+        color: #bddc08;
+        }
+   
+.personal_data{
+    margin-top: 2%;
+    
+}
+.information{
+    width:80%;
+    /* border:2px solid green; */
+    margin: auto;
+}
+.information{
+    padding:2em;
+   
+}
+.infoamation_para{
+   line-height: 1.7em;
+}
+@media only screen and (max-width:960px){
+    .section1_bio .section1_hello{
+        color:red;
+    }
+    .navbar{
+        height:7%;
+        
+    }
+    .section1_name{
+        color: #bddc08;
+    }
+    .logo{
+        height:60%;
+        width:7%;
+    }
+    .logo img{
+        width:100%;
+        height:100%;
+    }
+    .menu ul{
+       width:90%;
+      justify-content: space-evenly;
+      font-size: small;
+      
+    }
+   .link{
+    display:none;
+   }
+    .burger{
+        display: block;
+    }
+    .section1{
+        height:25vh;
+        
+    }
+    .section1_img{
+        width:70%;
+        align-items: flex-end;
+    }
+    .section1_img img{
+        height:88%;
+        width:70%;
+        border-radius: 50%;
+        border: 3px solid #bddc08;
+    }
+    .information{
+        margin-top: 45vh;
+    }
+   
+}
+@media only screen and (min-width:961px) and (max-width:1400px){
+    .information{
+        margin-top: 40vh;
+    }
+    .section1_img{
+        margin: auto;
+        padding-right: 10em;
+    }
+    .section1_bio{
+       margin-left: 250px;
+    }
+}
